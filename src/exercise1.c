@@ -2,7 +2,6 @@
 int main(int argc, char** argv) {
 float a[10];
 float b=0;
-printf("enter 10 numbers:\n");
 for(int i = 0; i < 10; ++i) {
 scanf("%f", &a[i]);
     }
