@@ -5,7 +5,6 @@ int main(int argc, char** argv) {
     for(int i = 0; i < 10; ++i) {
         scanf("%lf", &a[i]);
     }
-    printf("K: ");
     scanf("%d", &k);
     k = k % 10;
     if (k < 0) k += 10;

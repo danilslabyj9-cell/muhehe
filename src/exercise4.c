@@ -6,7 +6,6 @@ int main(int argc, char** argv) {
     for(int i = 0; i < 10; ++i) {
         scanf("%lf", &a[i]);
     }
-    printf("X,K:");
     scanf("%lf %d", &x, &k);
     for(int i = 9; i > k; --i) {
         a[i] = a[i - 1];
