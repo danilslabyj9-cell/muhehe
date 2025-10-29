@@ -1,14 +1,18 @@
 #include <stdio.h>
-int main(int argc, char** argv) {
-float a[10];
-float b=0;
-for(int i = 0; i < 10; ++i) {
-scanf("%f", &a[i]);
-    }
-for(int i = 0; i < 10; ++i) {
 
-b+=a[i];
-}
-printf("%.2f",b/10);
-return 0;
+int main(int argc, char** argv) {
+    double a[10];  // Используем double для повышения точности
+    double b = 0;
+
+    printf("enter 10 numbers:\n");
+    for (int i = 0; i < 10; ++i) {
+        scanf("%lf", &a[i]);  // Формат %lf для чтения double
+    }
+
+    for (int i = 0; i < 10; ++i) {
+        b += a[i];
+    }
+
+    printf("%.2f", b / 10);  // Вывод результата с округлением до 2 знаков
+    return 0;
 }
