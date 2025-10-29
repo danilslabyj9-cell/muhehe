@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
     printf("otvet:\n");
     for(int i = 0; i < 10; ++i) {
         for(int j = 0; j < 10; ++j) {
-            printf("%.2f ", c[i][j]);
+            printf("%f ", c[i][j]);
         }
     }
     return 0;
