@@ -6,7 +6,7 @@ int main(int argc, char** argv) {
         scanf("%lf", &a[i]);
     }
     for(int i = 9; i >= 0; --i) {
-        printf("%f ", a[i]);
+        printf("%.2f ", a[i]);
     }
     return 0;
 }
