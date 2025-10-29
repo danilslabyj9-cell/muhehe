@@ -1,6 +1,15 @@
 #include <stdio.h>
-
 int main(int argc, char** argv) {
-    printf("Hello World!");
-    return 0;
+float a[10];
+float b=0;
+printf("enter 10 numbers:\n");
+for(int i = 0; i < 10; ++i) {
+scanf("%f", &a[i]);
+    }
+for(int i = 0; i < 10; ++i) {
+
+b+=a[i];
+}
+printf("%.2f",b/10);
+return 0;
 }
